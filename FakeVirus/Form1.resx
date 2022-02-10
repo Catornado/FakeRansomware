@@ -57,11 +57,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Ooops, you downloaded virus! All your files are now encrypted! Pay $500 in Monopoly Money to receive code to recover them!    ____________________________________ Which files have been encrypted?                                                           All non-essential files in the desktop, documents, and downloads folder have been encrypted. You had the bad luck of running into the only ransomware that encrypts ALL files!                                                                                  How do I pay?</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJEAAAAyCAYAAABcUDljAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xNzNun2MAABDCSURBVHhe7Z35
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xNzNun2MAABDCSURBVHhe7Z35
         cxTHFccnx8/5A2LnqFTFuZxUXElcqXJVkh98x/jAiTHEF5jTEMfG2AZjGx/c4kZgcZvbCCFA5jQgbswt
         c9qIS+i+0Eqz0q52taLzPq3pYXZ3BEgkAUU7Vd/aPt509/T7znuvZ3oki0Mp9a3q6uqXqquq9glqqior
         61JIoRUEqisrD1aVl/cT3nxbE2jEiBHfrg0EFtfV1qoUUmgLxPCsEf581wrX1/cMhULqZtDQ0KBsu04a
@@ -135,5 +138,8 @@
         5UEGkUIK7YHEd1WWmOl+mLcUUmgPxApPsiRw/I6YvDV+AimkcC2IOzx67733fs/8z7PvyurhTfHdBRJI
         XcEPp5CCH+CHrA4rZUU3qYVAlvVvWccbQeHMrRQAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Ooops, all your files are encrypted! Do not close this window or delete Monolocker, that will just make it worse and it will be impossible to recover your files. Give $500 in Monopoly Money to receive your files.</value>
   </data>
 </root>
