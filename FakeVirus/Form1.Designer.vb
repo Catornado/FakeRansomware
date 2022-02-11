@@ -13,6 +13,10 @@ Partial Class Form1
             MyBase.Dispose(disposing)
         End Try
     End Sub
+    Private Sub Form1_Closing(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles MyBase.Closing
+        e.Cancel = True
+        MessageBox.Show("We have forbidden closing the window in order to protect your data.", "Monolocker")
+    End Sub
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer

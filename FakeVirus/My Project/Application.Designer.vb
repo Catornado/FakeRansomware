@@ -34,5 +34,9 @@ Namespace My
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.FakeVirus.Form1
         End Sub
+
+        Protected Overrides Sub Finalize()
+            MyBase.Finalize()
+        End Sub
     End Class
 End Namespace
