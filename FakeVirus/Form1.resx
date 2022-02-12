@@ -58,7 +58,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="TextBox1.Text" xml:space="preserve">
-    <value>Ooops, you downloaded virus! All your files are now encrypted! Pay $500 in Monopoly Money to receive code to recover them!    ____________________________________ Which files have been encrypted?                                                           All non-essential files in the desktop, documents, and downloads folder have been encrypted. You had the bad luck of running into the only ransomware that encrypts ALL files!                                                                                  How do I pay?</value>
+    <value>Ooops, you downloaded virus! All your files are now encrypted! Pay $500 in Monopoly Money to receive code to recover them!    ____________________________________ Which files have been encrypted?                                                           All non-essential files in the desktop, documents, and downloads folder have been encrypted. You had the bad luck of running into the only ransomware that encrypts ALL files!                                                                                                         How do I pay?                                                                                                     Pay by emailing gummy.burgers@gmail.com</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
