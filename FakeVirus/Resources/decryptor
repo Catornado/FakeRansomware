@@ -1,11 +1,11 @@
 @echo off
 
-cd %userprofile%\Desktop\encrypted files
+cd %userprofile%\Desktop\encryptedfiles
 del *.mnlock
 cd %userprofile%\Desktop
-md decrypted files
+md decryptedfiles
 cd C:\
 cd C:\Monolocker
-move C:\Monolocker\*.* %userprofile%\Desktop\decrypted files
-cd C:\Users\%userprofile%\Desktop
-rmdir encrypted files
+move C:\Monolocker\*.* %userprofile%\Desktop\decryptedfiles
+cd %userprofile%\Desktop
+rmdir encryptedfiles
